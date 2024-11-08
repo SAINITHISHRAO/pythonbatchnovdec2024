@@ -1,5 +1,5 @@
 # pythonbatchnovdec2024
-A repository for Python Developer
+A repository for a Python Developer
 
 
 ##  Git commands
@@ -20,10 +20,36 @@ To see the latest changes:
 
     git status
 
-To exactly see changes made on a single file:
+To exactly see changes made on the single file:
 
     git diff
 
 To stage the changes:
 
     git add <filename>
+
+To commit the changes:
+ 
+    git commit -m "commit message"
+
+To push the changes:
+
+    git push origin <source branch>
+
+### Daily
+
+To check the branch is clear,
+
+    git status
+
+To checkout the main branch
+
+    git checkout main
+
+To get the latest changes
+
+    get pull origin main
+
+To create new branch
+
+    git checkout -b <NEW BRANCH NAME>
