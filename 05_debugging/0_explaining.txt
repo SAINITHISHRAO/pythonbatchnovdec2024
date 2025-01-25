@@ -1,0 +1,22 @@
+Debugging in Python is the process of identifying and fixing bugs or errors in your code. 
+It involves identifying where the problem lies and correcting it to ensure the program runs as expected.
+
+Steps to Debugging:
+1. understand the Error Message:
+When Python encounters an issue, it raises an error with a message and a stack trace.
+Read the message carefully to identify the type of error (e.g., SyntaxError, TypeError, IndexError) and where it occurred.
+
+2. Add Print Statements:
+Insert print() statements at key points in your code to see the flow and values of variables.
+
+3. Use the Debugger (pdb):
+Python provides a built-in debugger module called pdb.
+You can add import pdb; pdb.set_trace() to pause the program and inspect variables interactively.
+
+4. Run in Debug Mode (IDE):
+If using an IDE like PyCharm, VS Code, or Jupyter, you can run the program in "Debug Mode."
+It allows you to set breakpoints (where the code pauses) and step through line by line.
+
+5. Check for Logical Errors:
+The program runs without errors but produces incorrect results.
+Test with different inputs and compare expected vs actual output.
